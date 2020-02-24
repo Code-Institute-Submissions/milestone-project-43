@@ -1,0 +1,57 @@
+/* navbar */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#header-container {
+    background-color: #D17813;
+}
+
+.nav-item {
+    font-size: 1.2em;
+    margin-right: 3em;
+
+}
+
+
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url("../images/jumbotron-bg.jpg");
+    background-position: right top;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-top-width: 10px;
+    border-top-color: #fafafa;
+    border-radius: 25px;
+}
+#jumbotron-container > h1 {
+    color: #FEFAEB;
+
+}
+#jumbotron-container > p {
+    color: #FEFAEB;
+
+}
+
+/* text */
+
+.main-text {
+font-size: 1.5em;  
+
+ }
+
+ /* map */
+
+ #map {
+        height: 400px;
+        width: 100%;
+        border-radius: 25px;
+ }
