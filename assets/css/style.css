@@ -11,8 +11,10 @@
 }
 
 .nav-item {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-right: 3em;
+    font-family: 'Roboto', sans-serif;
+    color: #136C31;
 
 }
 
@@ -31,20 +33,30 @@
     border-top-width: 10px;
     border-top-color: #fafafa;
     border-radius: 25px;
+    margin-top: 2em;
 }
+
 #jumbotron-container > h1 {
-    color: #FEFAEB;
+    color: #fafafa;
+    font-family: 'Spectral', sans-serif; 
 
 }
 #jumbotron-container > p {
-    color: #FEFAEB;
+    color: #fafafa;
+    font-family: 'Spectral', sans-serif;
+    font-size: 1.4em;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
 
 }
-
 /* text */
 
 .main-text {
-font-size: 1.5em;  
+font-size: 1.5em; 
+color: #fafafa;
+font-family: 'Spectral', sans-serif; 
 
  }
 
@@ -55,3 +67,16 @@ font-size: 1.5em;
         width: 100%;
         border-radius: 25px;
  }
+ /* body */
+
+ body {
+     background: #136C31;
+
+ }
+
+ /* map */
+
+ # map {
+     height: 500px;
+ }
+ 
