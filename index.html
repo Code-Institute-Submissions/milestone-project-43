@@ -7,6 +7,7 @@
     <title>La Brière holiday cottage</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/55f833db8c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -25,8 +26,8 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="index.html">Accueil</a>
-      <a class="nav-item nav-link" href="#">le gîte</a>
-      <a class="nav-item nav-link" href="#">les prix</a>
+      <a class="nav-item nav-link" href="holidaycottage.html">le gîte</a>
+      <a class="nav-item nav-link" href="prices.html">les prix</a>
       <a class="nav-item nav-link" href="contact.html">contact</a>
 
     </div>
@@ -88,7 +89,7 @@
     <h3>Découvrir la région</h3>
     
     
-    <div id="map">
+   <!--  <div id="map"> -->
     </div>
     
 <div class="row mb-2">
@@ -99,7 +100,44 @@
 </map>
 
 <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                 <p>La Brière</p>
+                 <p>03XXX St Sornin</p>
+                 <p>France</p>
+            </div>
 
+            <div class="col-sm">
+                <p>Retrouvez-nous sur:</p>
+            </div>
+
+            <div class="col-sm">
+            <p class="inline-block social">
+               <ul class="list-inline social-links" style="font-size: 3em; color: #fafafa;">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                     <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                     <i class="fab fa-airbnb"></i>
+                     <span class="sr-only">Airbnb</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="#">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+               </ul>
+            </p>
+        </div>
+    </div>
+</div>
 </footer>
 
 <script src="https://maps.googleapis.com/maps/api/js?callback=createMap&libraries=places&key=AIzaSyBDovaMPkIsYafKNdodo9ZMWYpT5FCRSYg" async defer></script>
