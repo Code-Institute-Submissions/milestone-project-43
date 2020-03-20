@@ -374,15 +374,7 @@ function drawChart() {
       daysOfWeek: 'DLMMJVS',
      },
        };
-function selectHandler() {
-          var selectedItem = chart.getSelection(price)[0];
-          if (selectedItem) {
-            var cost = price.getValue(selectedItem.row, 0);
-            alert('Coût du séjour' + cost + '€');
-          }
-        }
 
-        google.visualization.events.addListener(chart, 'select', selectHandler);  
 
        chart.draw(dataTable, options);
 

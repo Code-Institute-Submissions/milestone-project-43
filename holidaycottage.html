@@ -7,6 +7,7 @@
     <title>The house, garden and lake</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/tabGallery.css" type="text/css" />
     <script src="https://kit.fontawesome.com/55f833db8c.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -36,44 +37,52 @@
 </nav>
 
 </header>
+<div class="container-full">
+<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
-<div class="container">
-    <div class="row">
-        <div class="col-4">
-            <h1>La maison</h1>
-             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et, odit quos, laborum molestias culpa vel consequuntur placeat consectetur nemo illum similique iure. Nemo, labore culpa? Totam unde ab quisquam!</p>
-        </div>
-        <div class="col-8">
-             <img src="assets/images/interieur-1.jpg" alt="intérieur-salon">
-        </div>
-    </div>
+  <img id="expandedImg">
 
-    <div class="row">
-        <div class="col-8">
-         <img src="assets/images/jardin-4.jpg" alt="jardin">
-        </div>
-    <div class="col-4">
-    <h1>Le jardin</h1>
-             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et, odit quos, laborum molestias culpa vel consequuntur placeat consectetur nemo illum similique iure. Nemo, labore culpa? Totam unde ab quisquam!</p>
-        </div>
-    </div>
-  </div>
+  <div id="imgtext"></div>
+</div>
 
 <div class="row">
-        <div class="col-4">
-            <h1>L'étang</h1>
-             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et, odit quos, laborum molestias culpa vel consequuntur placeat consectetur nemo illum similique iure. Nemo, labore culpa? Totam unde ab quisquam!</p>
-        </div>
-        <div class="col-8">
-             <img src="assets/images/etang-2.jpg" alt="étang">
-        </div>
-    </div>
-<footer>
+  <div class="column">
+    <img src="/assets/images/tab1.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab2.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab3.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab4.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="/assets/images/tab5.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab6.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab7.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="/assets/images/tab8.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+
+
+<footer class="container-fluid">
     <div class="container">
         <div class="row">
             <div class="col-sm">
                  <p>La Brière</p>
-                 <p>03XXX St Sornin</p>
+                 <p>03240 St Sornin</p>
                  <p>France</p>
             </div>
 
@@ -109,7 +118,7 @@
 </div>
 </footer>
 
-
+<script src="assets/tabGallery.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  

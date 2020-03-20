@@ -1,4 +1,4 @@
-/*var map;
+var map;
 
 function createMap () {
     var options = {
@@ -58,5 +58,5 @@ var input = document.getElementById('search');
     
     map.fitBounds(bounds);
   });
-}  */
+}
 
