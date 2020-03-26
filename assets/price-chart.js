@@ -343,26 +343,21 @@ function drawChart() {
           [ new Date(2020, 11, 30), 60 ],
           [ new Date(2020, 11, 31), 60 ],
 
-          
-          
-
-          
-
+        
     
         ]);
 
        var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
 
        var options = {
-         title: "Consulter nos prix (€/nuit)",
-         height: 350,
-         calendar: {
-      dayOfWeekLabel: {
+        title: "Consulter nos prix (€/nuit)",
+        calendar: {
+        dayOfWeekLabel: {
         fontName: 'arial',
         fontSize: 14,
         color: '#1a8763',
         bold: true,
-    
+
       },
       cellColor: {
         stroke: '#76a7fa',

@@ -14,7 +14,8 @@
     font-size: 1.4em;
     margin-right: 3em;
     font-family: 'Roboto', sans-serif;
-    color: #136C31;
+    
+    
 
 }
 
@@ -40,12 +41,12 @@
 
 
 #jumbotron-container > h1 {
-    color: #fafafa;
+    color: #136C31;;
     font-family: 'Spectral', sans-serif; 
 
 }
 #jumbotron-container > p {
-    color: #fafafa;
+    color: #136C31;;
     font-family: 'Spectral', sans-serif;
     font-size: 1.4em;
 }
@@ -54,6 +55,8 @@
     font-size: 1.4em;
 
 }
+
+
 /* text */
 
 .main-text {
@@ -124,7 +127,7 @@ padding: 10px;
     font-size: 1.4em;
     margin-right: 3em;
     font-family: 'Roboto', sans-serif;
-    color:#136C31;
+    color:#fafafa;
     background-color: #D17813;
     padding-top: 10px;
 
@@ -153,4 +156,20 @@ padding: 10px;
        
 }
 
-/* holiday cottage tab gallery */
+/*form */
+
+#envoyer {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+h5 {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
