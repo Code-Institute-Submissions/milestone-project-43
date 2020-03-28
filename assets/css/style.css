@@ -173,3 +173,13 @@ h5 {
     font-family: 'Roboto', sans-serif;
     padding: 10px;
 }
+
+/* separators */
+
+hr {
+    width: 20%; 
+    color: #fafafa;
+    background-color: #fafafa;
+    border-width: 2px;
+    
+}
