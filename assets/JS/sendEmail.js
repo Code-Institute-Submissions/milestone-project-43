@@ -8,6 +8,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            setTimeout(location.href = 'after-send.html', 150)
         },
         function(error) {
             console.log("FAILED", error);
