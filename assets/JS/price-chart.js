@@ -95,7 +95,6 @@ function drawChart() {
           [ new Date(2020, 2, 30), 35 ],
           [ new Date(2020, 2, 31), 35 ],
           [ new Date(2020, 3, 1), 40 ],
-          [ new Date(2020, 3, 1), 40 ],
           [ new Date(2020, 3, 2), 40 ],
           [ new Date(2020, 3, 3), 60 ],
           [ new Date(2020, 3, 4), 60 ],
@@ -369,7 +368,6 @@ function drawChart() {
       daysOfWeek: 'DLMMJVS',
      },
        };
-
 
        chart.draw(dataTable, options);
 
