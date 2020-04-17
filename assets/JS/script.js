@@ -1,62 +1,69 @@
 var map;
 
-function createMap () {
-    var options = {
-        center: {lat:46.4266592, lng:2.9632074},
-        zoom: 10
-    };
+function createMap() {
+	var options = {
+		center: {
+			lat: 46.4266592,
+			lng: 2.9632074
+		},
+		zoom: 10
+	};
 
-    map = new google.maps.Map(document.getElementById('map'), options);
-  
-    var marker = new google.maps.Marker({
-        position: {lat:46.4266592, lng:2.9632074},
-        map:map
-    });
-    
-    var infoWindow = new google.maps.InfoWindow({
-        content:"<h1>La Brière</h1>"
-        
-    });
+	map = new google.maps.Map(document.getElementById('map'), options);
 
-    marker.addListener('mouseover', function(){
-        infoWindow.open(map, marker)
-    });
-var input = document.getElementById('search');
-  var searchBox = new google.maps.places.SearchBox(input);
+	var marker = new google.maps.Marker({
+		position: {
+			lat: 46.4266592,
+			lng: 2.9632074
+		},
+		map: map
+	});
 
-  map.addListener('bounds_changed', function() {
-    searchBox.setBounds(map.getBounds());
-  });
+	var infoWindow = new google.maps.InfoWindow({
+		content: "<h1>La Brière</h1>"
 
-  var markers = [];
-  
-  searchBox.addListener('places_changed', function () {
-    var places = searchBox.getPlaces();
+	});
 
-    if (places.length == 0)
-      return;
+	marker.addListener('mouseover', function () {
+		infoWindow.open(map, marker)
+	});
+	var input = document.getElementById('search');
+	var searchBox = new google.maps.places.SearchBox(input);
 
-    markers.forEach(function (m) { m.setMap(null); });
-    markers = [];
+	map.addListener('bounds_changed', function () {
+		searchBox.setBounds(map.getBounds());
+	});
 
-    var bounds = new google.maps.LatLngBounds();
-    places.forEach(function(p) {
-      if (!p.geometry)
-        return;
-    
-      markers.push(new google.maps.Marker({
-        map: map,
-        title: p.name,
-        position: p.geometry.location
-      }));
+	var markers = [];
 
-      if (p.geometry.viewport)
-        bounds.union(p.geometry.viewport);
-      else
-        bounds.extend(p.geometry.location);
-    });
-    
-    map.fitBounds(bounds);
-  });
+	searchBox.addListener('places_changed', function () {
+		var places = searchBox.getPlaces();
+
+		if (places.length == 0)
+			return;
+
+		markers.forEach(function (m) {
+			m.setMap(null);
+		});
+		markers = [];
+
+		var bounds = new google.maps.LatLngBounds();
+		places.forEach(function (p) {
+			if (!p.geometry)
+				return;
+
+			markers.push(new google.maps.Marker({
+				map: map,
+				title: p.name,
+				position: p.geometry.location
+			}));
+
+			if (p.geometry.viewport)
+				bounds.union(p.geometry.viewport);
+			else
+				bounds.extend(p.geometry.location);
+		});
+
+		map.fitBounds(bounds);
+	});
 }
-
