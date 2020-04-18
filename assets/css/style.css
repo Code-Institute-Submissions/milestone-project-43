@@ -190,8 +190,21 @@ hr {
 }
 
 
-/* calendar */
+/* calendar and prices */
 
 @media (max-width: 992px) {
    #calendar_basic{ display: none !important; }
+}
+
+#dates_div {
+    background-color: #136C31;
+    padding: 25px;
+}
+
+#dates_prices {
+    color: #fafafa;
+	font-family: 'spectral', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+	
 }
