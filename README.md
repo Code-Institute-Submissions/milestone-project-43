@@ -8,15 +8,15 @@ For my project I chose to create a website for a holiday cottage project in Fran
 This website is designed to complement a standard holiday cottage booking experience (such as Airbnb), by providing the user with a more personalized presentation than what is the norm on standard booking applications. The site is designed to give the user a good feel for the place, the colour scheme chosen reflects the contrast between the green fields and the orange tiled roofs that are typical of this area of France.
 
 * As a site user, I want to be able to see pictures of the interior and exterior features of my potential holiday place, to check that they match my expectations.
-* As a site user, I want to find out about nearby places of interest to plan visit and activities.
+* As a site user, I want to find out about nearby places of interest to plan visits and activities.
 * As a site user, I want to be able to see the range of prices so that I can budget for my holidays.
 * As a site user, I want to be able to contact the owner to ask further questions.
 * As the site owner, I want to display the assets of my rental property in a personalized way.
 * As the site owner, I want to be able to receive communication from potential customers and answer their questions. 
 
-Here are some rough designe wireframes (please note that I have not been able to use the Balsamiq desktop app, for which you offered free subscription my computer and OS are too old for it)
+Here are some rough designs wireframes (please note that I have not been able to use the Balsamiq desktop app for which you offered free subscription, my computer and OS are too old for it)
 
-<img src="images/wireframes_la_Briere.jpg">
+<img src="images/wireframes_la_Briere.png">
 
 
 <h2>Features</h2>
@@ -24,11 +24,11 @@ Here are some rough designe wireframes (please note that I have not been able to
 *The Landing page (index.html)*
 
 In the header, the user is presented with a personalized logo and the cottage's name, together with a Bootstrap navbar for easy navigation. 
-The jumbotron gives the user a quick easy to see access to the cottage's main features page.
+The jumbotron gives the user a quick, visible access to the cottage's main features page.
 The text section briefly introduces the cottage and possible activities in the local area.
 The carousel displays 3 pictures of the cottage and its surroundings.
 The map shows where the cottage is located and invites the user to perform searches for which the map returns local results.
-The footer provides the adress and links to social media and booking site (empty links for now).
+The footer provides the address and links to social media and booking site (empty links for now).
 
 *The gîte page (holiday_cottage.html)*
 
@@ -38,12 +38,14 @@ The pictures are clickable thumbnail images that expand underneath the text area
 
 
 *The prix page (prices.html)*
+
 Header and footer remain the same.
 The first section presents the prices in a responsive Bootstrap table.
 The second section presents those prices in a more visual/interactive way using a Google calendar chart. 
 
 
 *The contact page*
+
 Header and footer remain the same.
 The user is invited to fill in a 3 part form (name, email and message) to communicate with the owner.
 
@@ -60,7 +62,7 @@ The user is invited to fill in a 3 part form (name, email and message) to commun
 * JavaScript (image gallery, price chart, contact form, map)
 
 
-* Google Maps JavaScript API (search map)
+* Google Maps JavaScript API (map)
 * Google Places API (map search)
 * EmailJS (contact form)
 
@@ -71,9 +73,9 @@ The user is invited to fill in a 3 part form (name, email and message) to commun
 * W3schools (support for bits of code)
 * freelogodesign.org (site logo)
 
-* W3schools (support for bits of code)
+* W3schools (general support)
 * Slack and Stackoverflow (general technical support)
-* Youtube (Javascvript tutorials)
+* Youtube (Javascript tutorials)
 
 * Freeformatter (code formatting)
 * W3 validator (code validation)
@@ -85,9 +87,13 @@ The user is invited to fill in a 3 part form (name, email and message) to commun
 I have tested the site on a variety of devices (Android and Apple phones, Ipad, Laptops) as well as various browsers (Safari, Chrome, Firefox, Internet Explorer), I have asked various users to test the site, using the github link.
 
 Displaying pictures: pictures are presented in the form of a carousel and a gallery, both of which work on all devices and screensizes tested.
-Providing textual information: pieces of text are displayed in a font colour that consistently contrasts well with its background and whose size adapts to different viewports and always remains readable
+
+Providing textual information: pieces of text are displayed in a font colour that consistently contrasts well with its background and whose size adapts to different viewports and always remains readable.
+
 Searching the map for local places of interest: the map adapts to a device screen size and the searches return relevant results in the local area.
+
 Showing prices: the prices table is responsive and remains clear and readable on all devices. The calendar chart however works well on devices with a medium to large viewport, but it has proved difficult to make it responsive and therefore does not display fully on mobile devices. I have have tried a wide range of solutions, including those suggested by tutor support, but none of them worked. I chose to leave the table in as it works well on larger screens, and the Bootstrap table provides sufficient information for mobile users.
+
 Communication between user and owner: warning messages appear if the user tries to send a blank form or if the fields are not filled in correctly (incorrect email address), the user is redirected to a "message sent succesfully" after clicking the send button and can return to the home page form there. An email is correctly received in the specified mail service box.
 
 <h2>Deployment</h2>
