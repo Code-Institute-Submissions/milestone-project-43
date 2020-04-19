@@ -14,9 +14,8 @@ This website is designed to complement a standard holiday cottage booking experi
 * As the site owner, I want to display the assets of my rental property in a personalized way.
 * As the site owner, I want to be able to receive communication from potential customers and answer their questions. 
 
-Here are some rough designs wireframes (please note that I have not been able to use the Balsamiq desktop app for which you offered free subscription, my computer and OS are too old for it)
+Please note that I have not been able to use the Balsamiq desktop app (for which you offered free subscription) to create presentable wireframes that would really add value as I cannot run it on my computer (OS too old for it), the rough sketches that I made are really not presentable :innocent:
 
-<img src="images/wireframes_la_Briere.png">
 
 
 <h2>Features</h2>
@@ -44,7 +43,7 @@ The first section presents the prices in a responsive Bootstrap table.
 The second section presents those prices in a more visual/interactive way using a Google calendar chart. 
 
 
-*The contact page*
+*The contact page (contact.html)*
 
 Header and footer remain the same.
 The user is invited to fill in a 3 part form (name, email and message) to communicate with the owner.
@@ -92,9 +91,9 @@ Providing textual information: pieces of text are displayed in a font colour tha
 
 Searching the map for local places of interest: the map adapts to a device screen size and the searches return relevant results in the local area.
 
-Showing prices: the prices table is responsive and remains clear and readable on all devices. The calendar chart however works well on devices with a medium to large viewport, but it has proved difficult to make it responsive and therefore does not display fully on mobile devices. I have have tried a wide range of solutions, including those suggested by tutor support, but none of them worked. I chose to leave the table in as it works well on larger screens, and the Bootstrap table provides sufficient information for mobile users.
+Showing prices: the prices table is responsive and remains clear and readable on all devices. The calendar chart however works well on devices with a medium to large viewport, but it has proved difficult to make it responsive and therefore does not display fully on mobile devices. I have have tried a wide range of solutions, including those suggested by tutor support, but none of them worked. I chose to include he chart nonetheless as it adds value to the desktop page and the Bootstrap table provides sufficient information for mobile users.
 
-Communication between user and owner: warning messages appear if the user tries to send a blank form or if the fields are not filled in correctly (incorrect email address), the user is redirected to a "message sent succesfully" after clicking the send button and can return to the home page form there. An email is correctly received in the specified mail service box.
+Communication between user and owner: warning messages appear if the user tries to send a blank form or if the fields are not filled in correctly (incorrect email address), the user is redirected to a "message sent succesfully" page after clicking the send button and can return to the home page from there. An email is correctly received in the specified mail service box.
 
 <h2>Deployment</h2>
 
@@ -123,10 +122,15 @@ All texts and images used on this site are my property.
 <h2>Copied and adapted code</h2>
 
 Some sections of code were copied or adapted from:
+
 Bootstrap documentation
+
 Google charts documentation
+
 W3schools
+
 Email.JS documentation
+
 Google Maps API tutorial by Bryce StPierre (https://www.youtube.com/watch?v=oVr6unKZbg4)
 
 
