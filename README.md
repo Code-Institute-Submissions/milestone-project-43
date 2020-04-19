@@ -91,13 +91,13 @@ Providing textual information: pieces of text are displayed in a font colour tha
 
 Searching the map for local places of interest: the map adapts to a device screen size and the searches return relevant results in the local area.
 
-Showing prices: the prices table is responsive and remains clear and readable on all devices. The calendar chart however works well on devices with a medium to large viewport, but it has proved difficult to make it responsive and therefore does not display fully on mobile devices. I have have tried a wide range of solutions, including those suggested by tutor support, but none of them worked. I chose to include he chart nonetheless as it adds value to the desktop page and the Bootstrap table provides sufficient information for mobile users.
+Showing prices: the prices table is responsive and remains clear and readable on all devices. The calendar chart however works well on devices with a medium to large viewport, but it has proved difficult to make it responsive and therefore does not display fully on mobile devices. I have have tried a wide range of solutions, including those suggested by tutor support, but none of them worked. I chose to include the chart nonetheless as it adds value to the desktop page and the Bootstrap table provides sufficient information for mobile users.
 
 Communication between user and owner: warning messages appear if the user tries to send a blank form or if the fields are not filled in correctly (incorrect email address), the user is redirected to a "message sent succesfully" page after clicking the send button and can return to the home page from there. An email is correctly received in the specified mail service box.
 
 <h2>Deployment</h2>
 
-I used GitPod and GitHub for the deployment of this project, making the most of the "one-click" Chrome add on to got from GitHub to GitPod.
+I used GitPod and GitHub for the deployment of this project, making the most of the "one-click" Chrome add-on to got from GitHub to GitPod.
 For the remote deployment in  GitHub, I:
 
 * Selected the milestone-project-2 from my GitHub dashboard.
@@ -136,4 +136,4 @@ Google Maps API tutorial by Bryce StPierre (https://www.youtube.com/watch?v=oVr6
 
 Acknowledgements
 * To my mentor Reuben Ferrante for his time and help
-* To the Code Institute support team for their flexibility and regular phone calls, particularly in htese difficult times.
+* To the Code Institute support team for their flexibility and regular phone calls, particularly in these difficult times.
