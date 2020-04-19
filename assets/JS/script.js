@@ -25,7 +25,7 @@ function createMap() {
 	});
 
 	marker.addListener('mouseover', function () {
-		infoWindow.open(map, marker)
+		infoWindow.open(map, marker);
 	});
 	var input = document.getElementById('search');
 	var searchBox = new google.maps.places.SearchBox(input);

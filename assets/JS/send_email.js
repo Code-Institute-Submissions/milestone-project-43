@@ -7,11 +7,11 @@ function sendMail(contactForm) {
 		.then(
 			function (response) {
 				console.log("SUCCESS", response);
-				setTimeout(location.href = 'after_send_success.html', 100)
+				setTimeout(location.href = 'after_send_success.html', 100);
 			},
 			function (error) {
                 console.log("FAILED", error);
-                setTimeout(location.href = 'after_send_fail.html', 100)
+                setTimeout(location.href = 'after_send_fail.html', 100);
 			}
 		);
 	return false;

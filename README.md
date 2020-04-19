@@ -78,6 +78,7 @@ The user is invited to fill in a 3 part form (name, email and message) to commun
 
 * Freeformatter (code formatting)
 * W3 validator (code validation)
+* jshint.com (JavaScript validation)
 
 
 
